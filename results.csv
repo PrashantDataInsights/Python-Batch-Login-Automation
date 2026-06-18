@@ -1,0 +1,5 @@
+email,pswd,login_status
+admin@test.com,1234,True
+user@test.com,1111,True
+admin@test.com,9999,False
+hello@test.com,4344,False
