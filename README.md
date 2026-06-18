@@ -1,23 +1,35 @@
-# Python Batch Login Automation
+# 🚀 Python Batch Login Automation
 
-A basic Python automation project demonstrating:
+## 📌 Project Overview
+
+This project demonstrates a simple Python automation workflow for user authentication, session management, batch login processing, logging, and parallel execution.
+
+The application reads user credentials from a CSV file, validates login attempts, generates output results, maintains session information, and supports concurrent processing using ThreadPoolExecutor.
+
+---
+
+## ✨ Key Features
 
 - User Authentication
 - Session Management
-- CSV Processing
-- Batch Login
-- Parallel Processing using ThreadPoolExecutor
-- Logging
+- Batch Login Processing
+- CSV Input & Output Handling
+- Logging System
+- Parallel Processing
+- Error Handling
 
-## Technologies
-- Python
-- CSV Module
-- Logging Module
-- Concurrent Futures
+---
 
-## Features
-- Validate user credentials
-- Process multiple users from CSV
-- Save results into CSV
-- Generate automation logs
-- Run login jobs in parallel
+## 📂 Project Structure
+
+```text
+Python-Batch-Login-Automation/
+
+├── auth.py
+├── session_manager.py
+├── batch_login.py
+├── parallel_processing.py
+├── logger_setup.py
+├── user.csv
+├── results.csv
+└── README.md
